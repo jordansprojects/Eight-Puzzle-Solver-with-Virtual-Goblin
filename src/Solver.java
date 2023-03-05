@@ -15,6 +15,9 @@ public class Solver {
      *   but Vertex is only added to priority queue if it is the smallest distance
      *   from the goal. Stops when priority queue is empty.
      **********/
+
+
+    //TO-DO: Verify which algorithm this is. I may have been confused, it looks very similar to Dijkstra's Shortest Path.
     public void breadthFirstSearch(Vertex initialState, Graph graph) throws UnsolveablePuzzleException {
         if(!isSolvable(initialState.tiles)){
             throw new UnsolveablePuzzleException();
