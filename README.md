@@ -6,6 +6,6 @@
 The environment is set up using IntelliJ, the "resources" folder must be marked as such in order for the project to run properly. 
 
 
-# Demo Video
+# Demo Video from Original Program Submission
 https://user-images.githubusercontent.com/54329371/222986418-a90cb31e-5108-4183-ab84-f5e6765b1616.mp4
 
