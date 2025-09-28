@@ -17,7 +17,7 @@ public class Solver {
      **********/
 
 
-    //TO-DO: Verify which algorithm this is. I may have been confused, it looks very similar to Dijkstra's Shortest Path.
+    //TO-DO: This is A* not BFS - I was confused.
     public void breadthFirstSearch(Vertex initialState, Graph graph) throws UnsolveablePuzzleException {
         if(!isSolvable(initialState.tiles)){
             throw new UnsolveablePuzzleException();
